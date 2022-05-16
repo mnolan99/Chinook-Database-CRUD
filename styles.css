@@ -1,0 +1,111 @@
+#search {
+     background-position: 10px 10px;
+     background-repeat: no-repeat;
+     width: 100%;
+     font-size: 16px;
+     padding: 13px 25px;
+     border: 1px solid #ddd;
+     margin-bottom: 12px;
+     border-radius: 8px;
+}
+ #table {
+     border-collapse: collapse;
+     width: 100%;
+     border: 1px solid #ddd;
+     font-size: 18px;
+     color: white;
+}
+ #table th, #table td {
+     text-align: left;
+     padding: 12px;
+}
+ #table tr {
+     border-bottom: 1px solid #ddd;
+}
+ #table tr.header, #table tr:hover {
+     background-color: #755252;
+}
+ th, tr, td, a{
+     color: white;
+}
+ #insertButton {
+     background-color: #755252;
+     color: white;
+     padding: 15px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 8px;
+}
+ #insertButton2, #addRow2 {
+     background-color: #755252;
+     color: white;
+     padding: 5px 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 8px;
+     margin-top : 5px;
+}
+ .child {
+     display: inline-block;
+}
+ h1 {
+     text-align: center;
+     margin-top : 13.5px;
+}
+ body{
+     color: white;
+     background-color: #454545 ;
+}
+ a{
+     color: white;
+}
+ h2 {
+     text-decoration: underline;
+     margin-top : 15px;
+}
+ #homeButton {
+     position: absolute;
+     background-color: #755252;
+     color: white;
+     padding: 15px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 8px;
+     margin-top : 5px;
+     left: 0;
+}
+ #removeRow {
+     background-color: #755252;
+     color: white;
+     padding: 2px 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 8px;
+     margin-left : 5px;
+}
+ input:focus::placeholder {
+     color: transparent;
+}
+ #updateButton {
+     background-color: #755252;
+     color: white;
+     padding: 5px 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 8px;
+     margin-top : 5px;
+}
+ #deleteButton {
+     background-color: #755252;
+     color: white;
+     padding: 15px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     border-radius: 8px;
+}
